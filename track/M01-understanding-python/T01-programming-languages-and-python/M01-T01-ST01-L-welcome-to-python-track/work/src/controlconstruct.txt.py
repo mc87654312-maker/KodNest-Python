@@ -64,136 +64,136 @@ else:
 #Program9: Assign grades based on marks.
 
 
-# marks = 100
+marks = 100
 
-# if marks >= 90 and marks <= 100:
-#     print("Grade A")
+if marks >= 90 and marks <= 100:
+    print("Grade A")
 
-# elif marks >= 80 and marks < 90:
-#     print("Grade B")
+elif marks >= 80 and marks < 90:
+    print("Grade B")
 
-# elif marks >= 70 and marks < 80:
-#     print("Grade C")
+elif marks >= 70 and marks < 80:
+    print("Grade C")
 
-# elif marks >= 60 and marks < 70:
-#     print("Grade D")
+elif marks >= 60 and marks < 70:
+    print("Grade D")
 
-# elif marks < 60:
-#     print("Fail")
+elif marks < 60:
+    print("Fail")
 
-# else:
-#     print("Invalid marks")
+else:
+    print("Invalid marks")
 
-# # Program 10: electricity usage.
+# Program 10: electricity usage.
 
-# electricity  = 500
-# if electricity >= 500:
-#     print("High")
-# elif electricity >= 300 and electricity <= 500:
-#     print("medium")
-# elif electricity >101 and electricity <= 300:
-#     print("Low")
-# elif electricity < 100:
-#     print("Very Low")
-# else:
-#     print("Invalid Input")    
+electricity  = 500
+if electricity >= 500:
+    print("High")
+elif electricity >= 300 and electricity <= 500:
+    print("medium")
+elif electricity >101 and electricity <= 300:
+    print("Low")
+elif electricity < 100:
+    print("Very Low")
+else:
+    print("Invalid Input")    
 
 
-# # program 11: Scholarship eligibility
+# program 11: Scholarship eligibility
 
-# marks = float(input("Enter your marks: "))
-# income = float(input("Enter family income: "))
+marks = float(input("Enter your marks: "))
+income = float(input("Enter family income: "))
 
-# if marks >= 85 and income < 300000:
-#     print("Eligible for scholarship")
-# else:
-#     print("Not eligible for scholarship")
+if marks >= 85 and income < 300000:
+    print("Eligible for scholarship")
+else:
+    print("Not eligible for scholarship")
 
-# # program 12 user login
+# program 12 user login
 
-# username = input("Enter username: ")
-# password = input("Enter password: ")
+username = input("Enter username: ")
+password = input("Enter password: ")
 
-# if username == "admin" and password == "12345":
-#     print("Login successful")
-# else:
-#     print("Invalid username or password")
+if username == "admin" and password == "12345":
+    print("Login successful")
+else:
+    print("Invalid username or password")
 
-# # Display weekday using numbers (1–7)
+# Display weekday using numbers (1–7)
 
-# day = int(input("Enter a number (1-7): "))
+day = int(input("Enter a number (1-7): "))
 
-# if day == 1:
-#     print("Monday")
-# elif day == 2:
-#     print("Tuesday")
-# elif day == 3:
-#     print("Wednesday")
-# elif day == 4:
-#     print("Thursday")
-# elif day == 5:
-#     print("Friday")
-# elif day == 6:
-#     print("Saturday")
-# elif day == 7:
-#     print("Sunday")
-# else:
-#     print("Invalid day number")
+if day == 1:
+    print("Monday")
+elif day == 2:
+    print("Tuesday")
+elif day == 3:
+    print("Wednesday")
+elif day == 4:
+    print("Thursday")
+elif day == 5:
+    print("Friday")
+elif day == 6:
+    print("Saturday")
+elif day == 7:
+    print("Sunday")
+else:
+    print("Invalid day number")
 
-# # Print numbers from 1 to 20
+# Print numbers from 1 to 20
 
-# for i in range(1, 21):
-#     print(i)
+for i in range(1, 21):
+    print(i)
 
-# # Print the multiplication table of a given number
+# Print the multiplication table of a given number
 
-# num = int(input("Enter a number: "))
-# for i in range (1,11):
-#     print(num,"x",i,"=", num*i)
+num = int(input("Enter a number: "))
+for i in range (1,11):
+    print(num,"x",i,"=", num*i)
 
-# Print numbers from 10 to 1
-# i = 10
+#Print numbers from 10 to 1
+i = 10
 
-# while i >= 1:
-#     print(i)
-#     i = i - 1
+while i >= 1:
+    print(i)
+    i = i - 1
 
 # Find the factorial of a number
 
-# num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 
-# factorial = 1
-# i = 1
+factorial = 1
+i = 1
 
-# if num < 0:
-#     print("Factorial is not defined for negative numbers")
-# else:
-#     while i <= num:
-#         factorial = factorial * i
-#         i = i + 1
+if num < 0:
+    print("Factorial is not defined for negative numbers")
+else:
+    while i <= num:
+        factorial = factorial * i
+        i = i + 1
 
-#     print("Factorial =", factorial)
+    print("Factorial =", factorial)
 
 # Break Statement
 
-# for i in range(1, 21):
-#     if i == 15:
-#         break
+for i in range(1, 21):
+    if i == 15:
+        break
 
-#     print(i)
+    print(i)
 
-# Search for a number in a list using break
+#Search for a number in a list using break
 
-# numbers = [10, 20, 30, 40, 50]
+numbers = [10, 20, 30, 40, 50]
 
-# search = int(input("Enter a number to search: "))
+search = int(input("Enter a number to search: "))
 
-# for num in numbers:
-#     if num == search:
-#         print("Number found")
-#         break
-# else:
-#     print("Number not found")
+for num in numbers:
+    if num == search:
+        print("Number found")
+        break
+else:
+    print("Number not found")
 
 # Continue Statement
 
@@ -248,5 +248,7 @@ def display():
 display()
 
 print("Program executed successfully")
+
+
 
 

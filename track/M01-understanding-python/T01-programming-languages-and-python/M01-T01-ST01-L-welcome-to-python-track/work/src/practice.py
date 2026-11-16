@@ -9,19 +9,19 @@ print("city:", age)
 
 # w.a.p to erite student id card
 
-# name = input("Enter student name: ")
-# student_id = input("Enter student ID: ")
-# age = input("Enter age: ")
-# course = input("Enter course: ")
-# college = input("Enter college name: ")
+name = input("Enter student name: ")
+student_id = input("Enter student ID: ")
+age = input("Enter age: ")
+course = input("Enter course: ")
+college = input("Enter college name: ")
 
-# print("\n========== STUDENT ID CARD ==========")
-# print("Student Name :", name)
-# print("Student ID   :", student_id)
-# print("Age          :", age)
-# print("Course       :", course)
-# print("College      :", college)
-# print("=====================================")
+print("\n========== STUDENT ID CARD ==========")
+print("Student Name :", name)
+print("Student ID   :", student_id)
+print("Age          :", age)
+print("Course       :", course)
+print("College      :", college)
+print("=====================================")
 
 # W.A.P that text on multiple lines
 print("Hello Madhab")

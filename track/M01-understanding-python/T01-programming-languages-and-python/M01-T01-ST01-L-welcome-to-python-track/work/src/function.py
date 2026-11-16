@@ -1,19 +1,19 @@
-#def largest of 3 numbers
-# def largest():
-#     first = int(input("Enter first number:"))
-#     second = int(input("Enter second number:"))
-#     third = int(input("Enter third number:"))
-#     if first > second and first > third:
-#         print("First number is largest")
-#     elif second > first and second > third:    
-#         print("second number is largest")
+# #def largest of 3 numbers
+# # def largest():
+# #     first = int(input("Enter first number:"))
+# #     second = int(input("Enter second number:"))
+# #     third = int(input("Enter third number:"))
+# #     if first > second and first > third:
+# #         print("First number is largest")
+# #     elif second > first and second > third:    
+# #         print("second number is largest")
 
-#     else:   
-#         print("third number is largest")
+# #     else:   
+# #         print("third number is largest")
 
-# largest()     
+# # largest()     
 
-# add 2 numbers
+# # add 2 numbers
 def add():
     a = 10
     b = 20
@@ -28,7 +28,7 @@ def square():
 
 square()    
 
-#check if anumber is even or odd
+# #check if anumber is even or odd
 
 def even_or_odd():
     a = 8
@@ -38,37 +38,37 @@ def even_or_odd():
         print("odd")
 even_or_odd()
 
-# Greet with name
+# # Greet with name
 
 def greet_with_name():
     name = "Madhab"
     print("Hello",name)
 greet_with_name()
 
-# No arguments + No return value
+# # No arguments + No return value
 def square():
     a = 5
     print(a*a)
 square()
-# No input + output
+# # No input + output
 def square():
     n = 5 * 5
     return n
 print(square()) 
 
-# input + no output
+# # input + no output
 def square(n):
     res = n * n 
     print(res)
 square(10)
 
-# input + output
+# # input + output
 def square(n):
     return n * n
 res = square(10)
 print(res)    
 
-Function with local and global variale
+# Function with local and global variale
 c = 30      # global var
 def add():
     global a # global var
@@ -79,7 +79,7 @@ def add():
 add()
 print(c)    
 
-local and have same name
+# local and have same name
 x = 100
 def display():
     x = 50
@@ -87,7 +87,7 @@ def display():
 display()
 print("global x:", x)
 
-Error
+# Error
 
 x = 100
 def display():
@@ -98,7 +98,7 @@ display()
 x = 30
 print(x)
 
-Function overloading
+# Function overloading
 
 def add(a,b):
     print(a+b)
@@ -109,8 +109,8 @@ def add(a,b,c):
 add(10, 20)
 add(10, 20, 30)    
 
-DEFAULT ARGUMENTS
-default args
+# DEFAULT ARGUMENTS
+#default args
 def add(a=0, b=0, c=0):
     return a+b+c
 print(add(10))  
@@ -118,7 +118,7 @@ print(add(10,20))
 print(add(10,20,30))    
 print(add())
 
-var args
+# var args
 def add(*args):
     total = 0
     for i in args:
@@ -127,7 +127,7 @@ def add(*args):
 print(add(10,20,30))        
 
 
-*args - 0 ... n arguments can be passed
+# *args - 0 ... n arguments can be passed
 
 def add(*a):
     print(sum(a))
@@ -137,7 +137,7 @@ add(10,20,30)
 add(10)
 add()   
 
-**kwargs - 0 ... n arguments can be passed --> dict
+# **kwargs - 0 ... n arguments can be passed --> dict
 
 def stu_info(**kwargs):
     print(f"Name is{kwargs.get('name')}", end = "")
@@ -146,7 +146,7 @@ def stu_info(**kwargs):
 
 stu_info(name = "madhab", age = 21, course = "python")  
 
-Recursion
+# Recursion
 
 def count(n):
     if n==0:
@@ -155,7 +155,7 @@ def count(n):
     count(n-1)
 count(5)        
 
-Factorial
+# Factorial
 
 def fact(n):
     if n==0 or n==1:
@@ -164,7 +164,7 @@ def fact(n):
         return n*fact(n-1)
 print(fact(5))            
 
-Fibbonaci Series 0,1,1,2,3,5,8......
+# Fibbonaci Series 0,1,1,2,3,5,8......
 
 def fib(n):
     if n==0:
